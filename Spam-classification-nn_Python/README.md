@@ -23,7 +23,6 @@
 - **Оптимизатор:** Adam (learning rate = 0.0005)
 - **Функция потерь:** sparse_categorical_crossentropy
 - **Регуляризация:** L2 (λ = 0.001) + Dropout (0.2) — предотвращает переобучение
-- **Callback:** ReduceLROnPlateau — снижает learning rate при плато на валидации
 - **Preprocessing:** StandardScaler — стандартизация признаков (mean = 0, std = 1)
 
 ## Результаты
